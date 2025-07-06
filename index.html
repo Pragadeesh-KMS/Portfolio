@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pragadeesh's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%230f3460'/%3E%3Ctext x='50' y='55' font-family='Arial' font-size='30' fill='white' text-anchor='middle' dominant-baseline='middle'%3EPK%3C/text%3E%3C/svg%3E" alt="Logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#about" class="active">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#awards">Awards</a></li>
+                        <li><a href="#publication">Publication</a></li>
+                    </ul>
+                </nav>
+                <a href="images/resume.pdf" download="resume.pdf" class="download-cv">
+                    <i class="fas fa-download"></i> DOWNLOAD CV
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Myself Section -->
+    <section class="myself">
+        <div class="container">
+            <div class="myself-content">
+                <div class="myself-text">
+                    <h2>I'm Pragadeesh</h2>
+                    <p>I am a B.Tech Computer Science undergraduate from SRM University with advanced proficiency in Python and its libraries, along with expertise in various frameworks and additional languages for ML-Ops production. As an AI & ML Engineer, I specialize in developing innovative solutions and models using state-of-the-art technologies and frameworks.</p>
+                    <div class="contact-icons">
+                        <a href="mailto:kmspragadeesh6000@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="https://huggingface.co/Praga-6000" target="_blank" title="Hugging Face"><i class="fas fa-robot"></i></a>
+                        <a href="https://github.com/Pragadeesh-KMS" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/pragadeesh-kms/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="tel:+919489646000" title="Call"><i class="fas fa-phone"></i></a>
+                        <a href="https://maps.app.goo.gl/7ayBNRv5TMysXem6A" target="_blank" title="Location"><i class="fas fa-map-marker-alt"></i></a>
+                    </div>
+                </div>
+                <div class="myself-image">
+                    <img src="images/myimage.png" alt="Pragadeesh KMS">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+            </div>
+            
+            <div class="about-container">
+                <!-- Professional Summary -->
+                <div class="about-section professional-summary">
+                    <h3>Professional Summary</h3>
+                    <p>With a strong foundation in both theoretical concepts and practical applications, I have successfully implemented solutions across various domains including natural language processing, computer vision, and generative AI. My approach combines technical expertise with creative problem-solving to deliver impactful results.</p>
+                </div>
+                
+                <!-- Education -->
+                <div class="about-section education-section">
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <h4>B.Tech in Computer Science and Engineering <span>Sept 2020 - Jun 2024</span></h4>
+                        <p>SRM Institute of Science and Technology</p>
+                        <p class="cgpa">CGPA: 9.28</p>
+                    </div>
+
+                </div>
+
+                <div>
+                    <h2>My Skills</h2>
+                
+                    <div class="skills-section">
+                        <div class="skills-categories">
+                            <div class="skill-category active" data-category="languages">
+                                Languages
+                            </div>
+                            <div class="skill-category" data-category="expertise">
+                                Expertise
+                            </div>
+                            <div class="skill-category" data-category="platforms">
+                                Platforms
+                            </div>
+                            <div class="skill-category" data-category="libraries">
+                                Libraries
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="skills-display-container">
+                            <div class="skills-display" id="skillsDisplay">
+                                <!-- Skills will be populated here by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Work Experience</h2>
+            </div>
+            
+            <div class="experience-container">
+                <button class="scroll-arrow left-arrow hidden">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                
+                <div class="experience-track">
+                    <div class="experience-card">
+                        <div class="timeline-content">
+                            <h3>AI Engineer</h3>
+                            <span class="company">Unremot</span>
+                            <span class="date">Feb 2024 - Jan 2025</span>
+                            <ul>
+                                <li>Worked on two different projects - "Ignite 5.0" and "SME"</li>
+                                <li>Collaborated in creating, training, and testing two innovative AI Ed-Tech platforms tailored for student entrepreneurs and SME business owners</li>
+                                <li>Crafted and implemented advanced prompting strategies for each section in the AI-Copilot, enhancing accuracy to over 95%</li>
+                                <li>Worked closely with cross-functional teams and Directors from The Wadhwani Foundation</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-card">
+                        <div class="timeline-content">
+                            <h3>AI Engineer Intern</h3>
+                            <span class="company">SOUL AI</span>
+                            <span class="date">Sept 2023 - Jan 2024</span>
+                            <ul>
+                                <li>Trained an AI tutor model using Reinforcement Learning with Human Feedback (RLHF)</li>
+                                <li>Achieved over 90% accuracy in responses</li>
+                                <li>Focused on Computer Science and Mathematics for the AI tutor</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="scroll-arrow right-arrow">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Publication Section -->
+    <section id="publication">
+        <div class="container">
+            <div class="section-header">
+                <h2>Publication Works</h2>
+            </div>
+            
+            <div class="publication-grid">
+                <div class="publication-card">
+                    <h3>TypeScuplt</h3>
+                    <span class="org">IRCCTSD Conference</span>
+                    <span class="date">May 2024</span>
+                    <ul>
+                        <li>TypeScuplt is a pipeline which transforms text prompts to 3D objects with novel multi-view image generation.</li>
+                        <li>The pipeline uses a combination of CLIP, VAE, and other diffusion models to generate the 3D objects form texts and images.</li>
+                        <li>It is trained on a objaverse dataset of 100k 3D objects.</li>
+                    </ul>
+                </div>
+                
+                <div class="publication-card">
+                    <h3>Synergizing Code and Creativity</h3>
+                    <span class="org">NCTS</span>
+                    <span class="date">Nov 2023</span>
+                    <ul>
+                        <li>A Quantum Leap in Game Development through Conversational AI</li>
+                        <li>The paper explores the integration of Conversational AI in game development, focusing on enhancing user interaction and gameplay through natural language processing and machine learning.</li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Projects</h2>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Activity Tracker using github gist</h3>
+                        <div class="date">Jan 2025 - May 2025</div>
+                    </div>
+                    <div class="project-body">
+                        <p>Created an activity tracker webpage to add, delete and edit daily tasks with timeline setup, reminders and pausing activities.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Pragadeesh-KMS/activity-tracker" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Text to 3D using (ViT) Attention Mechanism for Textures</h3>
+                        <div class="date">Dec 2023 - May 2024</div>
+                    </div>
+                    <div class="project-body">
+                        <p>Created a pipeline which transforms text prompts to 3D objects with novel multi-view image generation.</p>
+                        <div class="project-links">
+                            <a href="https://colab.research.google.com/drive/1UGOIbAyYS7H1WxjuZCPzgumAPs_9C-YQ?usp=sharing" target="_blank">
+                                <i class="fab fa-google"></i> Colab
+                            </a>
+                            <a href="https://github.com/Pragadeesh-KMS/TypeSculpt" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://www.kaggle.com/code/kaybe02/type-sculpt-demo" target="_blank">
+                                <i class="fab fa-kaggle"></i> Kaggle
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Vision Guard: Personalized Content Oversight Tool</h3>
+                        <div class="date">Oct 2023 - Dec 2023</div>
+                    </div>
+                    <div class="project-body">
+                        <p>Application to protect users from seeing unwanted content based on preferences using CLIP and Real-time DETR models.</p>
+                        <div class="project-links">
+                            <a href="https://colab.research.google.com/drive/1dg0hPF_hn5CGHYcyWfAleBWXsrW4z_6-?usp=sharing" target="_blank">
+                                <i class="fab fa-google"></i> Colab
+                            </a>
+                            <a href="https://github.com/Pragadeesh-KMS/Vision-Guard" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Dynamic Gaming Experience using LLMs</h3>
+                        <div class="date">June 2023 - Oct 2023</div>
+                    </div>
+                    <div class="project-body">
+                        <p>Online game with intelligent NPCs for dynamic gaming experiences using Conversational AI and open source LLMs.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Kaybe02/NPC_chat_system_using_LLMs" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Speech-to-Image with Prompt Engineering</h3>
+                        <div class="date">Aug 2023 - Sept 2023</div>
+                    </div>
+                    <div class="project-body">
+                        <p>Multi-lingual speech prompts to image pipeline using whisper-large V3 and stable diffusion SDXL.</p>
+                        <div class="project-links">
+                            <a href="https://colab.research.google.com/drive/1t4eYX5aeszUNxCPKXllgyStl_V7_b1cG?usp=sharing" target="_blank">
+                                <i class="fab fa-google"></i> Colab
+                            </a>
+                            <a href="https://github.com/Pragadeesh-KMS/Speech-to-image" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Awards & Certifications</h2>
+            </div>
+            
+            <div class="awards-container">
+                <div class="award-card">
+                    <div class="award-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>ML Ops Specialization</h3>
+                    <span class="issuer">Duke University</span>
+                    <span class="date">July 2024</span>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/DQMYY7ZG55BC" target="_blank">
+                        View Certificate <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                
+                <div class="award-card">
+                    <div class="award-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Computing Specialization</h3>
+                    <span class="issuer">Duke University</span>
+                    <span class="date">June 2024</span>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/BEXHFPTRD7CL" target="_blank">
+                        View Certificate <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                
+                <div class="award-card">
+                    <div class="award-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Best Paper Award</h3>
+                    <span class="issuer">IRCCTSD Conference, SRMIST</span>
+                    <span class="date">May 2024</span>
+                    <a href="https://drive.google.com/file/d/1jWsFGbs6DifQLwldWLb3SFWtdeHOWo45/view?usp=sharing" target="_blank">
+                        View Certificate <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                
+                <div class="award-card">
+                    <div class="award-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Azure AI Fundamental AI 900</h3>
+                    <span class="issuer">Microsoft</span>
+                    <span class="date">May 2024</span>
+                    <a href="https://drive.google.com/file/d/1BGMAhlo2Evylk5K3DbNJAYpZMgWME56d/view?usp=sharing" target="_blank">
+                        View Certificate <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                
+                <div class="award-card">
+                    <div class="award-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Google Cloud - Gen AI | ML Engineer</h3>
+                    <span class="issuer">Google Cloud Platform</span>
+                    <span class="date">Feb 2024</span>
+                    <a href="https://www.cloudskillsboost.google/public_profiles/6525899c-14f9-4317-b9ff-15ac42c4f56c" target="_blank">
+                        View Certificate <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                
+                <div class="award-card">
+                    <div class="award-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Deep Learning</h3>
+                    <span class="issuer">NVIDIA DLI</span>
+                    <span class="date">Dec 2023</span>
+                    <a href="https://drive.google.com/file/d/1vCdV3QujsU96tszl-ohLSfGUXJ_7Xz_x/view?usp=sharing" target="_blank">
+                        View Certificate <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>Let's connect and explore opportunities to collaborate on innovative AI and ML projects</p>
+                <div class="footer-links">
+                    <a href="mailto:kmspragadeesh6000@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://huggingface.co/Praga-6000" target="_blank"><i class="fas fa-robot"></i></a>
+                    <a href="https://github.com/Pragadeesh-KMS" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/pragadeesh-kms/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="tel:+919489646000"><i class="fas fa-phone"></i></a>
+                </div>
+                <p class="copyright">© 2024 Pragadeesh KMS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
