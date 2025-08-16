@@ -76,7 +76,8 @@ const skillsData = {
         { name: "C++", icon: "fas fa-code" },
         { name: "Node.js", icon: "fab fa-node-js" },
         { name: "SQL", icon: "fas fa-database" },
-        { name: "TypeScript", icon: "fas fa-file-code" }
+        { name: "TypeScript", icon: "fas fa-file-code" },
+        { name: "React", icon: "fas fa-react"}
     ],
     expertise: [
         { name: "Deep Learning", icon: "fas fa-brain" },
@@ -197,3 +198,12 @@ window.addEventListener('scroll', function() {
 
 // Initialize with about section active
 document.querySelector('nav a[href="#about"]').classList.add('active');
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll("li").forEach(li => {
+      // Regex matches {text} #colorcode
+      li.innerHTML = li.innerHTML.replace(/\{([^}]+)\}\s*#([0-9A-Fa-f]{6})/g, 
+        '<span style="color:#$2; font-weight:500;">$1</span>');
+    });
+});
+  
