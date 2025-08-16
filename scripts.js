@@ -206,4 +206,3 @@ document.addEventListener("DOMContentLoaded", () => {
         '<span style="color:#$2; font-weight:500;">$1</span>');
     });
 });
-  
