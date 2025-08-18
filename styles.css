@@ -10,10 +10,34 @@
     border-radius: 15px;
     font-size: 0.8rem;
     font-weight: 500;
-    background: rgba(255, 255, 255, 0.1);
-
+    background: linear-gradient(90deg, #e44d26 0%, #94c5ec 75%);
 }
-/* New Experience Section Styles */
+
+.tech-used .tech-tag:nth-child(1) {
+  background: linear-gradient(90deg, #ff9e80 0%, #ffe066 100%);
+}
+
+.tech-used .tech-tag:nth-child(2) {
+  background: linear-gradient(90deg, #ffe066 0%, #a8f5b4 100%);
+}
+
+.tech-used .tech-tag:nth-child(3) {
+  background: linear-gradient(90deg, #a8f5b4 0%, #6edff6 100%);
+}
+
+.tech-used .tech-tag:nth-child(4) {
+  background: linear-gradient(90deg, #6edff6 0%, #c9a8f5 100%);
+}
+
+.tech-used .tech-tag:nth-child(5) {
+  background: linear-gradient(90deg, #c9a8f5 0%, #ffb3d9 100%);
+}
+
+.tech-used .tech-tag:nth-child(6) {
+  background: linear-gradient(90deg, #ffb3d9 0%, #ff9e80 100%);
+}
+
+  
 .experience-container {
     position: relative;
     max-width: 1200px;
