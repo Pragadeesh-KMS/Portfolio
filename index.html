@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+    (function () {
+        var base = './';
+        if (location.hostname.endsWith('github.io')) {
+            var root = location.pathname.split('/').filter(Boolean)[0];
+            if (root) base = '/' + root + '/';
+        }
+        document.head.appendChild(Object.assign(document.createElement('base'), { href: base }));
+    })();
+    </script>
     <title>Pragadeesh KMS - ML Research & Engineering</title>
     <meta name="description" content="ML researcher & AI engineer - diffusion models, RLHF, contrastive learning. UC Davis M.S. Computer Science.">
     <link rel="stylesheet" href="styles.css">
